@@ -17,6 +17,8 @@ def rhine_map():
     """"
     Function to load the river Rhine
     """
+    rivers = gpd.read_file(gpd.datasets.get_path("naturalearth_lowres"))
+    
 
 
 # if __name__ == '__main__':
